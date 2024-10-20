@@ -8,25 +8,25 @@ while replay == True:
     ai_choice = random.randint(1, 3)
     if Response == "rock":
         if ai_choice == 2:
-            print("You lost! The computer has choosen Paper!")
+            print("You lost! The computer has chosen Paper!")
         if ai_choice == 3:
-            print("You won! The computer has choosen Scissors!")
+            print("You won! The computer has chosen Scissors!")
         if ai_choice == 1:
-            print("You tied! The computer has also choosen Rock!")
+            print("You tied! The computer has also chosen Rock!")
     if Response == "paper":
         if ai_choice == 1:
-            print("You won! The computer has choosen Rock!")
+            print("You won! The computer has chosen Rock!")
         if ai_choice == 3:
-            print("You lost! The computer has choosen Scissors!")
+            print("You lost! The computer has chosen Scissors!")
         if ai_choice == 2:
-            print("You tied! The computer has also choosen Paper!")
+            print("You tied! The computer has also chosen Paper!")
     if Response == "scissors":
         if ai_choice == 1:
-            print("You lost! The computer has choosen Rock!")
+            print("You lost! The computer has chosen Rock!")
         if ai_choice == 2:
-            print("You won! The computer has choosen Paper!")
+            print("You won! The computer has chosen Paper!")
         if ai_choice == 3:
-            print("You tied! The computer has also choosen Scissors!")
+            print("You tied! The computer has also chosen Scissors!")
     replay = input("Do you want to play again? Type Yes or No: ")
     replay = replay.lower()
     if replay != "yes":
